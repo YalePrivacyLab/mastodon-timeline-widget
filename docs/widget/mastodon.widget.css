@@ -23,9 +23,15 @@
 a:link,
 a:active,
 a {
-	color: #26afff;
+	color: #286DC0;
 	text-decoration: none;
 	font-weight: normal;
+}
+
+.footerText {
+	font-family:sans;
+	font-size:.85em;
+	color:#333;
 }
 
 .mastodon-timeline a:link,
@@ -189,7 +195,7 @@ a.btn-spoiler {
 /* light theme >>> */
 .mastodon-timeline-light {
 	background: #fafafa;
-	color: #555;
+	color: #333;
 }
 
 .mastodon-timeline-light .mt-footer,
@@ -200,7 +206,7 @@ a.btn-spoiler {
 .mastodon-timeline-light a:link,
 .mastodon-timeline-light a:active,
 .mastodon-timeline-light a {
-	color: #26afff;
+	color: #286DC0;
 }
 
 .mastodon-timeline-light .mt-header {
@@ -219,7 +225,7 @@ a.btn-spoiler {
 
 /* spoiler === */
 .mastodon-timeline-light a.btn-spoiler {
-	background: #26afff;
+	background: #286DC0;
 	color: white;
 }
 /* <<< */
