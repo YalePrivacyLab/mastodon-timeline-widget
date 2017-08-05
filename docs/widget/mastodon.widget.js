@@ -202,7 +202,7 @@ MastodonApi.prototype.listStatuses = function() {
 	 */
 	var setHeaderUserLink = function(account_) {
 		// set user name and link
-		$('.user-link', this.widget).append("<a href='"+account_.url+"'>@"+account_.username+"</a>");
+		$('.user-link', this.widget).append("<a href='"+account_.url+"' target='_blank'>@"+account_.username+"</a>");
 	};
 
 
@@ -212,7 +212,7 @@ MastodonApi.prototype.listStatuses = function() {
 	 */
 	var setFooterLink = function(account_) {
 		var domain = this.INSTANCE_URI.replace(/https?:\/\//, '');
-		$('.mt-footer', this.widget).append("View on <a href='"+account_.url+"'>"+domain+"</a>");
+		$('.mt-footer', this.widget).append("View on <a href='"+account_.url+"' target='_blank'>"+domain+"</a>");
 	};
 
 
