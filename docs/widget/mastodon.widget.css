@@ -20,6 +20,14 @@
 	padding: 10px 10px;
 }
 
+a:link,
+a:active,
+a {
+	color: #26afff;
+	text-decoration: none;
+	font-weight: normal;
+}
+
 .mastodon-timeline a:link,
 .mastodon-timeline a:active,
 .mastodon-timeline a {
